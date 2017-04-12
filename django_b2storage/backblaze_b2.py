@@ -1,7 +1,7 @@
 import json
 import mimetypes
 import hashlib
-from urllib.request import Request, urlopen
+from urllib2 import Request, urlopen
 
 from django.core.files.base import ContentFile
 from django.core.files.storage import Storage
