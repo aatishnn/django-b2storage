@@ -1,6 +1,6 @@
 import base64
 import json
-from urllib.request import Request, urlopen
+from urllib2 import Request, urlopen
 import datetime
 
 from django.conf import settings
